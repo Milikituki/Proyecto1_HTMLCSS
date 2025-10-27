@@ -61,7 +61,8 @@ nav a{
 }
 
 .nav .active{
-    background-color: #f0eeed;
+    font-weight: bold;
+   text-decoration: underline;
          
 }
 body{
