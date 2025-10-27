@@ -1,8 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
-
-h1{
-    color: rgba(139, 6, 128, 0.849);
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
     
-    font-family: 'Anton';
+}
 
+.flex-logo{
+    background-color: #c7c2c0;
+    height: 8rem;
+    display: flex;
+    gap: 4rem;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.logo{
+    width: 350px;
+    
+    
+}
+
+header ul{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;    
+    align-items: center;
+    padding-right: 2rem;
+    border-right: none;
+    margin: 0;
+    border: none;
+    background-color: transparent;
+}
+.nav{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    background-color: #e3e0de;   
+    padding: 1rem 2rem;
+    margin-left: 0.3rem;
+    border-radius: 0.6rem;
+    box-shadow: 0 2px 4px #0000001a;;
+    height: 3.5rem;
+    min-width: 10rem;
+    text-align: center;
+    
+}
+nav a{
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    font-size: 1rem;;
+}
+
+.nav:hover {
+    background-color: #f0eeed;
+    
+}
+body{
+    background-color: #c7c2c0
 }
