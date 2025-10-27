@@ -59,6 +59,11 @@ nav a{
     background-color: #f0eeed;
     
 }
+
+.nav .active{
+    background-color: #f0eeed;
+         
+}
 body{
     background-color: #c7c2c0
 }
