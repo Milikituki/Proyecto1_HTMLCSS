@@ -68,3 +68,26 @@ nav a{
 body{
     background-color: #c7c2c0
 }
+
+main h1{
+    font-family: "Fjalla One", sans-serif;
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+
+main img{
+    display: block;
+    margin: 0 auto;
+    max-width: 30%;
+    height: auto;
+    border-radius: 1rem;
+    box-shadow: 0 10px 20px #00000033;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+main img:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 25px #00000040;
+}
